@@ -106,8 +106,8 @@ Description=Bitcoin Network Fee Checker
 After=network.target
 
 [Service]
-WorkingDirectory=/home/user/btc-fee-checker
-ExecStart=/home/user/Bitcoin-Network-Fee-Checker/venv/bin/python /home/user/btc-fee-checker/checker.py
+WorkingDirectory=/home/user/Bitcoin-Network-Fee-Checker
+ExecStart=/home/user/Bitcoin-Network-Fee-Checker/venv/bin/python /home/user/Bitcoin-Network-Fee-Checker/checker.py
 Restart=always
 RestartSec=10
 User=user
