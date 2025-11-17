@@ -18,7 +18,7 @@
 
 ```bash
 git clone https://github.com/edotoday/Bitcoin-Network-Fee-Checker.git
-cd btc-fee-checker
+cd Bitcoin-Network-Fee-Checker
 ```
 
 ---
@@ -102,12 +102,12 @@ sudo nano /etc/systemd/system/btcfee.service
 
 ```ini
 [Unit]
-Description=Bitcoin Fee Checker
+Description=Bitcoin Network Fee Checker
 After=network.target
 
 [Service]
 WorkingDirectory=/home/user/btc-fee-checker
-ExecStart=/home/user/btc-fee-checker/venv/bin/python /home/user/btc-fee-checker/checker.py
+ExecStart=/home/user/Bitcoin-Network-Fee-Checker/venv/bin/python /home/user/btc-fee-checker/checker.py
 Restart=always
 RestartSec=10
 User=user
