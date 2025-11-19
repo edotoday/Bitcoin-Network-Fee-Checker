@@ -1,4 +1,4 @@
-# Bitcoin Network Fee Checker + Telegram Alerts
+# Bitcoin Network Fee Checker + Telegram Alerts.
 
 Простой чекер комиссий Bitcoin (sat/vB) с мгновенными уведомлениями в Telegram, когда сеть становится дешёвой.
 
